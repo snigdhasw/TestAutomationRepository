@@ -28,6 +28,8 @@ public class VerifyLogin extends BaseTest {
 		Thread.sleep(5000);
 		initializeDriver();
 
+		System.out.println("Github changes testing");
+		
 		sa.assertEquals(driver.getTitle(), getTestData("salesforce.title"));
 
 		WebElement username = driver.findElement(By.id(getWebElement("web.username.path")));
