@@ -2,6 +2,7 @@ package testpagefactory;
 
 import java.util.List;
 
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -17,12 +18,31 @@ public class UsermenuDropdown_PF {
 		PageFactory.initElements(driver, this);
 		
 	}
-	
+	//userMenu
 	@FindBy(id = "userNavLabel")
 	public WebElement btn_Usermenu;
 	
+	//list of items under usermenu
 	@FindBy(id = "userNav-menuItems")
 	public List<WebElement> list_UsermenuList;
+	
+	//my setting under usermenu
+	@FindBy(linkText = "My Settings")
+	public WebElement mySettings;
+	
+	//personalinfo
+	@FindBy(xpath = "//*[@id=\"PersonalInfo_font\"]")
+	public WebElement personalinfo;
+	
+	//click on login history link
+	//driver.findElement(By.xpath("//*[@id=\"PersonalInfo_child\"]/div[8]")).click();
+	@FindBy(xpath = "//*[@id=\"PersonalInfo_child\"]/div[8]")
+	public WebElement login_history;
+	
+	//click to download the .csv file
+	@FindBy(xpath = "//*[@id=\"RelatedUserLoginHistoryList_body\"]/div/a")
+	public WebElement downloadfile;
+	
 	
 	
 

@@ -6,9 +6,9 @@
       <class name="testcases.VerifyUserMenu">
         <methods>
           <include name="setup"/>
+          <include name="tc07Mysettings"/>
           <include name="CreateReport"/>
           <include name="tearDown"/>
-          <include name="verifyUsermenuDropdown"/>
         </methods>
       </class> <!-- testcases.VerifyUserMenu -->
     </classes>

@@ -4,13 +4,8 @@
 	<test name="LoginTest">
 		<classes>
 			<class name="testcases.VerifyLogin">
-				<methods>
-					
-					<include name="forgotpass" />
-
-				</methods>
 			</class> 
-			<class name = "VerifyUserMenu">
+			<class name = "testcases.VerifyUserMenu">
 			</class>
 		</classes>
 	</test> <!-- Test -->

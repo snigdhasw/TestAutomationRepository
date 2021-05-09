@@ -2,31 +2,31 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="10400" started-at="2021-05-08T16:31:21Z" finished-at="2021-05-08T16:31:32Z">
+  <suite name="Default suite" duration-ms="15360" started-at="2021-05-09T07:37:52Z" finished-at="2021-05-09T07:38:08Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="10400" started-at="2021-05-08T16:31:21Z" finished-at="2021-05-08T16:31:32Z">
+    <test name="Default test" duration-ms="15360" started-at="2021-05-09T07:37:52Z" finished-at="2021-05-09T07:38:08Z">
       <class name="testcases.VerifyUserMenu">
-        <test-method status="PASS" signature="setup()[pri:0, instance:testcases.VerifyUserMenu@6dbb137d]" name="setup" is-config="true" duration-ms="271" started-at="2021-05-08T09:31:21Z" finished-at="2021-05-08T09:31:21Z">
+        <test-method status="PASS" signature="setup()[pri:0, instance:testcases.VerifyUserMenu@6b26e945]" name="setup" is-config="true" duration-ms="422" started-at="2021-05-09T00:37:52Z" finished-at="2021-05-09T00:37:52Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="CreateReport(java.lang.reflect.Method)[pri:0, instance:testcases.VerifyUserMenu@6dbb137d]" name="CreateReport" is-config="true" duration-ms="4" started-at="2021-05-08T09:31:21Z" finished-at="2021-05-08T09:31:21Z">
+        <test-method status="PASS" signature="CreateReport(java.lang.reflect.Method)[pri:0, instance:testcases.VerifyUserMenu@6b26e945]" name="CreateReport" is-config="true" duration-ms="6" started-at="2021-05-09T00:37:52Z" finished-at="2021-05-09T00:37:52Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[public void testcases.VerifyUserMenu.verifyUsermenuDropdown()]]>
+                <![CDATA[public void testcases.VerifyUserMenu.tc07Mysettings()]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CreateReport -->
-        <test-method status="PASS" signature="verifyUsermenuDropdown()[pri:0, instance:testcases.VerifyUserMenu@6dbb137d]" name="verifyUsermenuDropdown" duration-ms="10374" started-at="2021-05-08T09:31:21Z" finished-at="2021-05-08T09:31:32Z">
+        <test-method status="PASS" signature="tc07Mysettings()[pri:0, instance:testcases.VerifyUserMenu@6b26e945]" name="tc07Mysettings" duration-ms="15325" started-at="2021-05-09T00:37:52Z" finished-at="2021-05-09T00:38:08Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifyUsermenuDropdown -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:testcases.VerifyUserMenu@6dbb137d]" name="tearDown" is-config="true" duration-ms="721" started-at="2021-05-08T09:31:32Z" finished-at="2021-05-08T09:31:33Z">
+        </test-method> <!-- tc07Mysettings -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:testcases.VerifyUserMenu@6b26e945]" name="tearDown" is-config="true" duration-ms="727" started-at="2021-05-09T00:38:08Z" finished-at="2021-05-09T00:38:08Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

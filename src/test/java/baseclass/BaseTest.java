@@ -138,8 +138,8 @@ public class BaseTest {
 		WebElement login = driver.findElement(By.id(getWebElement("login.button.path")));
 		CommonUtilities.clickOn(driver, login, 6);
 		
-		 s = password.getText();
-		sa.assertEquals(password.getText(), getUserAccElement("user.pass"));
+		// s = password.getText();
+		//sa.assertEquals(password.getText(), getUserAccElement("user.pass"));
 		test.info("password is entered");
 		
 		
