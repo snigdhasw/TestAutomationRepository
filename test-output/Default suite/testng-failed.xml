@@ -3,14 +3,15 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="testcases.VerifyUserMenu">
+      <class name="testcases.VerifyCreateOppertunity">
         <methods>
           <include name="setup"/>
-          <include name="tc07Mysettings"/>
-          <include name="CreateReport"/>
+          <include name="closeDriver"/>
+          <include name="createReport"/>
+          <include name="tc16CreateNewOptny"/>
           <include name="tearDown"/>
         </methods>
-      </class> <!-- testcases.VerifyUserMenu -->
+      </class> <!-- testcases.VerifyCreateOppertunity -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
