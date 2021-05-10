@@ -35,13 +35,21 @@ public class UsermenuDropdown_PF {
 	public WebElement personalinfo;
 	
 	//click on login history link
-	//driver.findElement(By.xpath("//*[@id=\"PersonalInfo_child\"]/div[8]")).click();
 	@FindBy(xpath = "//*[@id=\"PersonalInfo_child\"]/div[8]")
 	public WebElement login_history;
 	
 	//click to download the .csv file
 	@FindBy(xpath = "//*[@id=\"RelatedUserLoginHistoryList_body\"]/div/a")
 	public WebElement downloadfile;
+	
+	//ddeveloper console ;
+	@FindBy(xpath = "//*[@id=\"userNav-menuItems\"]/a[3]" )
+	public WebElement devConsole;
+	
+	//logout from usermenu
+	@FindBy(xpath = "//*[@id=\"userNav-menuItems\"]/a[5]")
+	public WebElement logout;
+	
 	
 	
 	

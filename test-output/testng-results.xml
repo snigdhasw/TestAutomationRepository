@@ -2,35 +2,39 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="15360" started-at="2021-05-09T07:37:52Z" finished-at="2021-05-09T07:38:08Z">
+  <suite name="Default suite" duration-ms="19559" started-at="2021-05-10T04:52:55Z" finished-at="2021-05-10T04:53:15Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="15360" started-at="2021-05-09T07:37:52Z" finished-at="2021-05-09T07:38:08Z">
-      <class name="testcases.VerifyUserMenu">
-        <test-method status="PASS" signature="setup()[pri:0, instance:testcases.VerifyUserMenu@6b26e945]" name="setup" is-config="true" duration-ms="422" started-at="2021-05-09T00:37:52Z" finished-at="2021-05-09T00:37:52Z">
+    <test name="Default test" duration-ms="19559" started-at="2021-05-10T04:52:55Z" finished-at="2021-05-10T04:53:15Z">
+      <class name="testcases.VerifyCreateOppertunity">
+        <test-method status="PASS" signature="setup()[pri:0, instance:testcases.VerifyCreateOppertunity@63a65a25]" name="setup" is-config="true" duration-ms="691" started-at="2021-05-09T21:52:55Z" finished-at="2021-05-09T21:52:55Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="CreateReport(java.lang.reflect.Method)[pri:0, instance:testcases.VerifyUserMenu@6b26e945]" name="CreateReport" is-config="true" duration-ms="6" started-at="2021-05-09T00:37:52Z" finished-at="2021-05-09T00:37:52Z">
+        <test-method status="PASS" signature="createReport(java.lang.reflect.Method)[pri:0, instance:testcases.VerifyCreateOppertunity@63a65a25]" name="createReport" is-config="true" duration-ms="9" started-at="2021-05-09T21:52:55Z" finished-at="2021-05-09T21:52:55Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[public void testcases.VerifyUserMenu.tc07Mysettings()]]>
+                <![CDATA[public void testcases.VerifyCreateOppertunity.tc15optnyDropdown()]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- CreateReport -->
-        <test-method status="PASS" signature="tc07Mysettings()[pri:0, instance:testcases.VerifyUserMenu@6b26e945]" name="tc07Mysettings" duration-ms="15325" started-at="2021-05-09T00:37:52Z" finished-at="2021-05-09T00:38:08Z">
+        </test-method> <!-- createReport -->
+        <test-method status="PASS" signature="tc15optnyDropdown()[pri:0, instance:testcases.VerifyCreateOppertunity@63a65a25]" name="tc15optnyDropdown" duration-ms="19271" started-at="2021-05-09T21:52:55Z" finished-at="2021-05-09T21:53:15Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- tc07Mysettings -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:testcases.VerifyUserMenu@6b26e945]" name="tearDown" is-config="true" duration-ms="727" started-at="2021-05-09T00:38:08Z" finished-at="2021-05-09T00:38:08Z">
+        </test-method> <!-- tc15optnyDropdown -->
+        <test-method status="PASS" signature="closeDriver()[pri:0, instance:testcases.VerifyCreateOppertunity@63a65a25]" name="closeDriver" is-config="true" duration-ms="237" started-at="2021-05-09T21:53:15Z" finished-at="2021-05-09T21:53:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeDriver -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:testcases.VerifyCreateOppertunity@63a65a25]" name="tearDown" is-config="true" duration-ms="523" started-at="2021-05-09T21:53:15Z" finished-at="2021-05-09T21:53:15Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- testcases.VerifyUserMenu -->
+      </class> <!-- testcases.VerifyCreateOppertunity -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

@@ -82,7 +82,7 @@ public class BaseTest {
 		return value;
 	}
     
-    public static String getTestData(String testdata) throws Exception {
+    public static String getTestData(String testdata) {
 
 		String value = testDataProp.getProperty(testdata);
 		return value;
@@ -90,14 +90,15 @@ public class BaseTest {
     
 	@AfterSuite
 	public void tearDown() {
-		driver.close();
+		//driver.close();
 		extentReports.flush();
 	}
 	
 	public static void initializeReport() {
 
 		reportTime = new SimpleDateFormat("MM-dd-yyyy-HHmmss").format(new Date());
-		htmlReporter = new ExtentHtmlReporter(AppConstants.HTML_REPORT_PATH+"/"+reportTime+".html");
+		//htmlReporter = new ExtentHtmlReporter(AppConstants.HTML_REPORT_PATH+"/"+reportTime+".html");
+		htmlReporter = new ExtentHtmlReporter(AppConstants.HTML_REPORT_PATH+"/testreport.html");
 		extentReports = new ExtentReports();
 		extentReports.attachReporter(htmlReporter);
 	}

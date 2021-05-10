@@ -4,6 +4,7 @@ import java.lang.reflect.Method;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
+import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
@@ -19,6 +20,12 @@ public class VerifyLogin extends BaseTest {
 	@BeforeMethod
 	public void CreateReport(Method sTestMethod) {
 		test = extentReports.createTest(sTestMethod.getName());
+	}
+	
+@AfterMethod
+	
+	public void quitDriver() {
+		driver.quit();
 	}
 
 	@Test
