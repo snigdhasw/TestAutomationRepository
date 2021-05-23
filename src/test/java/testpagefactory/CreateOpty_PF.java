@@ -56,7 +56,29 @@ public class CreateOpty_PF {
 	//save button
 	@FindBy(name = "save")
 	public WebElement save;
-	//driver.findElement(By.name("save")).click();
+	
+	@FindBy(xpath = "//*[@id=\"bodyCell\"]/div[1]/div[1]/div[1]/h2")
+	public WebElement valid;
+	
+	//WebElement opPipeline = driver.findElement(By.linkText("Opportunity Pipeline"));
+	@FindBy(linkText = "Opportunity Pipeline")
+	public WebElement opPipeline;
+	
+	//*[@id="noTableContainer"]/div/div[1]/div[1]/div[1]/h1
+	@FindBy(xpath = "//*[@id=\"noTableContainer\"]/div/div[1]/div[1]/div[1]/h1")
+	public WebElement validation2;
+	
+	//WebElement stuckOpt = driver.findElement(By.linkText("Stuck Opportunities"));
+	@FindBy(linkText = "Stuck Opportunities")
+	public WebElement stuckOpt;
+	
+	@FindBy(xpath = "//*[@id=\"report\"]/div[2]/div[2]/input[6]")
+	public WebElement getRrport;
+	
+	//WebElement quaterlyReport = driver.findElement(By.id("quarter_q"))
+	@FindBy(id = "quarter_q")
+	public WebElement quaterlyReport ;
+	
 	
 
 }

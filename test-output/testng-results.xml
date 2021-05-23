@@ -1,40 +1,40 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" ignored="3" total="4" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="40649" started-at="2021-05-10T16:47:23Z" finished-at="2021-05-10T16:48:04Z">
+  <suite name="Suite" duration-ms="12326" started-at="2021-05-23T04:22:33Z" finished-at="2021-05-23T04:22:45Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="40649" started-at="2021-05-10T16:47:23Z" finished-at="2021-05-10T16:48:04Z">
-      <class name="testcases.VerifyCreateOppertunity">
-        <test-method status="PASS" signature="setup()[pri:0, instance:testcases.VerifyCreateOppertunity@63a65a25]" name="setup" is-config="true" duration-ms="438" started-at="2021-05-10T09:47:23Z" finished-at="2021-05-10T09:47:23Z">
+    <test name="Test" duration-ms="12326" started-at="2021-05-23T04:22:33Z" finished-at="2021-05-23T04:22:45Z">
+      <class name="testcases.VerifyLeads">
+        <test-method status="PASS" signature="setup()[pri:0, instance:testcases.VerifyLeads@3c9d0b9d]" name="setup" is-config="true" duration-ms="208" started-at="2021-05-22T21:22:33Z" finished-at="2021-05-22T21:22:33Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="createReport(java.lang.reflect.Method)[pri:0, instance:testcases.VerifyCreateOppertunity@63a65a25]" name="createReport" is-config="true" duration-ms="7" started-at="2021-05-10T09:47:24Z" finished-at="2021-05-10T09:47:24Z">
+        <test-method status="PASS" signature="createReport(java.lang.reflect.Method)[pri:0, instance:testcases.VerifyLeads@3c9d0b9d]" name="createReport" is-config="true" duration-ms="3" started-at="2021-05-22T21:22:33Z" finished-at="2021-05-22T21:22:33Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[public void testcases.VerifyCreateOppertunity.tc16CreateNewOptny()]]>
+                <![CDATA[public void testcases.VerifyLeads.tc23LeadsTab()]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createReport -->
-        <test-method status="PASS" signature="tc16CreateNewOptny()[pri:0, instance:testcases.VerifyCreateOppertunity@63a65a25]" name="tc16CreateNewOptny" duration-ms="40255" started-at="2021-05-10T09:47:24Z" finished-at="2021-05-10T09:48:04Z">
+        <test-method status="PASS" signature="tc23LeadsTab()[pri:0, instance:testcases.VerifyLeads@3c9d0b9d]" name="tc23LeadsTab" duration-ms="12089" started-at="2021-05-22T21:22:33Z" finished-at="2021-05-22T21:22:45Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- tc16CreateNewOptny -->
-        <test-method status="PASS" signature="closeDriver()[pri:0, instance:testcases.VerifyCreateOppertunity@63a65a25]" name="closeDriver" is-config="true" duration-ms="358" started-at="2021-05-10T09:48:04Z" finished-at="2021-05-10T09:48:04Z">
+        </test-method> <!-- tc23LeadsTab -->
+        <test-method status="PASS" signature="closeDriver()[pri:0, instance:testcases.VerifyLeads@3c9d0b9d]" name="closeDriver" is-config="true" duration-ms="214" started-at="2021-05-22T21:22:45Z" finished-at="2021-05-22T21:22:45Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeDriver -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:testcases.VerifyCreateOppertunity@63a65a25]" name="tearDown" is-config="true" duration-ms="595" started-at="2021-05-10T09:48:04Z" finished-at="2021-05-10T09:48:05Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:testcases.VerifyLeads@3c9d0b9d]" name="tearDown" is-config="true" duration-ms="338" started-at="2021-05-22T21:22:45Z" finished-at="2021-05-22T21:22:46Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- testcases.VerifyCreateOppertunity -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+      </class> <!-- testcases.VerifyLeads -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>

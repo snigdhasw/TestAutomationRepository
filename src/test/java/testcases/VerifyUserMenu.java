@@ -97,24 +97,24 @@ public class VerifyUserMenu extends BaseTest {
 		test.info("page factory is loaded");
 		System.out.println("test");
 		
-		CommonUtilities.clickOn(driver, uDropdown.btn_Usermenu, 6);
+		CommonUtilities.clickOn(driver, uDropdown.btn_Usermenu, 8);
 		System.out.println(uDropdown.btn_Usermenu.getText());
 		sa.assertEquals(uDropdown.btn_Usermenu.getText(), getTestData("usermenu.level"));
 		test.info("usermenu is clicked");
 		
 		
-		CommonUtilities.clickOn(driver, uDropdown.mySettings, 6);
+		CommonUtilities.clickOn(driver, uDropdown.mySettings, 8);
 		
 		sa.assertEquals(uDropdown.mySettings.getText(), getTestData("usermenu_setting"));
 		test.info("my setting is clicked");
 		
-		CommonUtilities.clickOn(driver, uDropdown.personalinfo, 6);
+		CommonUtilities.clickOn(driver, uDropdown.personalinfo, 8);
 		test.info("personalinfo is clicked");
 		
-		CommonUtilities.clickOn(driver, uDropdown.login_history, 6);
+		CommonUtilities.clickOn(driver, uDropdown.login_history, 8);
 		test.info("login_history is clicked");
 		
-		CommonUtilities.clickOn(driver, uDropdown.downloadfile, 6);
+		CommonUtilities.clickOn(driver, uDropdown.downloadfile, 8);
 		 
 		boolean isFileExist = isFileExist();
 		sa.assertTrue(isFileExist);

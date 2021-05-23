@@ -3,9 +3,17 @@
 <suite name="LginModule">
 	<test name="LoginTest">
 		<classes>
-			<class name="testcases.VerifyLogin">
+				<class name="testcases.VerifyLogin">
 			</class> 
-			<class name = "testcases.VerifyUserMenu">
+				<class name = "testcases.VerifyUserMenu">
+			</class> 
+			<class name="testcases.VerifyCreateOppertunity">
+				<!--<methods>
+					<include name="tc18StuckOppertunity" />
+
+				</methods> -->
+			</class>
+			<class name = "testcases.VerifyCreateOppertunity">
 			</class>
 		</classes>
 	</test> <!-- Test -->

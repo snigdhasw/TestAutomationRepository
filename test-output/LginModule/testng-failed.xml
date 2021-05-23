@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [LginModule]">
+  <test name="LoginTest(failed)">
+    <classes>
+      <class name="testcases.VerifyCreateOppertunity">
+        <methods>
+          <include name="closeDriver"/>
+          <include name="createReport"/>
+        </methods>
+      </class> <!-- testcases.VerifyCreateOppertunity -->
+      <class name="testcases.VerifyUserMenu">
+        <methods>
+          <include name="tc07Mysettings"/>
+          <include name="quitDriver"/>
+          <include name="CreateReport"/>
+        </methods>
+      </class> <!-- testcases.VerifyUserMenu -->
+      <class name="testcases.VerifyLogin">
+        <methods>
+          <include name="setup"/>
+          <include name="quitDriver"/>
+          <include name="tearDown"/>
+          <include name="CreateReport"/>
+        </methods>
+      </class> <!-- testcases.VerifyLogin -->
+    </classes>
+  </test> <!-- LoginTest(failed) -->
+</suite> <!-- Failed suite [LginModule] -->
